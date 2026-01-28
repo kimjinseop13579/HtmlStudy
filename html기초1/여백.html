@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*그냥 padding: 10px 10px 10px 10px 를 하면 시계방향으로 상 우 하 좌 순으로 들어감 
+               padding : 20px 와 같이 입력하면 사방에 모두 20px씩 커짐
+               box-sizing: border-box; 를 넣으면 박스 크기를 미리 적어놓은 태그의 크기가 
+               padding 에따라 변하지 않는다.
+               태그의 크기를 따로 정하지않고 패딩만넣음면 패딩에 크기에따라 태그의 크기가 결정된다
+               네이버 로그인 버튼이 예시이다 글자를 사각박스의 정가운데 두고싶은경우 사용한다
+               */
+        #title{
+            padding-top: 20px;
+            padding-right: 10px;
+            padding-left: 15px;
+            padding-bottom: 5px;
+        }
+        #boxWrap{
+            box-sizing: border-box;
+            background-color: pink;
+            width: 500px;
+            height: 500px;
+            margin-top: 100px;
+            padding: 40px;
+            border-radius: 20px;
+        }
+        #box1{
+            box-sizing: border-box;
+            border: 1px solid red;
+            border-radius: 15px;
+            background-color: rgba(255, 0, 0, 0.315);
+            padding-left:0 ;
+            padding-right:0 ;
+            margin-bottom: 10px;
+            
+        }
+        #box2{
+            box-sizing: border-box;
+            border: 1px solid white;
+            border-radius: 20px;
+        }
+        #box1 b{
+            margin: 100px;
+            padding: 30px;
+        }
+        #box1 span{
+            margin: 100px;
+            padding: 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="title">여백 시작이다!!~~~</h1>
+    <div id="boxWrap">
+        <div id="box1"> 
+            <span> 여백의 미 !</span>
+        <b>여백이...</b>
+        <i>없어.....</i>
+        </div>
+        <div id="box2"> 여유가 없네!!!</div>
+    </div>
+
+    
+</body>
+</html>
