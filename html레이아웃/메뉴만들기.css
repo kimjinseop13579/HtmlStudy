@@ -1,0 +1,13 @@
+/*메뉴만들기*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#wrap{
+    width: 1200px;/*최대너비*/
+    position: relative;
+    margin: 0 auto;
+}
+#header{
+    padding: 10px 20px;/*편안한 패딩 7px 10px */
+}
