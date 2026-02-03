@@ -1,0 +1,50 @@
+
+.photoMain1{
+    height: 300px;
+    font-size: 30px;
+}
+.photo{
+    margin: 0px 15px;
+    height: 300px;
+    width: 150px;
+    float: left;
+}
+.photo{
+    background: url(./고양이1.jpg);
+    background-size: cover;
+}
+.photo.b{
+    background: url(./고양이2.jpg);
+    background-size: cover;
+}
+.photo.c{
+    background: url(./고양이3.jpg) no-repeat center;
+    background-size: cover;
+}
+
+
+/* .photo2{
+    margin: 15px;
+    height: 300px;
+    width: 150px;
+    background: url(./고양이2.jpg) no-repeat;
+    background-size: cover;
+}
+.photo3{
+    margin: 15px;
+    height: 300px;
+    width: 150px;
+    background: url(./고양이3.jpg) no-repeat;
+    background-size: cover;
+} */
+/* .photoMain2{
+    margin-top: 20px;
+}
+.photo4{
+    width: 150px;
+    height: 300px;
+}
+.photo4 img{
+    width: 100%;
+    height: 100%;
+} */

@@ -11,3 +11,35 @@
 #header{
     padding: 10px 20px;/*편안한 패딩 7px 10px */
 }
+#logoWrap{
+    height: 50px;
+}
+#logoWrap img{/*id가 logoWrap 인 태그 밑에 있는 img태그 선택*/
+    height: 100%;
+}
+
+/*브라우저에 이미지 표현2*/
+
+#logoImg{
+    height: 50px;
+    width: 100px;
+    background: url("./test_poto.jpg") no-repeat;
+    background-size: contain;
+}
+
+.menuLink{
+    font-size: 25px;/*글자크기*/
+    color: black;/*글자색*/
+    text-decoration: none; /*글자 꾸미기 (밑줄)*/
+    font-weight: 700; /*글자 굵기*/
+    padding: 3px 7px;
+    margin: 0px 20px;
+
+}
+
+#logoWrap{
+    float: right;
+}
+#logoImg{
+    float: left;
+}
