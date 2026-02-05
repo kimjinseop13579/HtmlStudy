@@ -1,0 +1,13 @@
+
+<!-- saved from url=(0171)https://xsso.leagueoflegends.com/redirect?iss=https%3A%2F%2Fauth.riotgames.com&state=5686698d50b498d7cce3407df0&error=interaction_required&error_description=login_required -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></head><body><h3>Auth Error</h3>
+
+<table>
+  <tbody><tr><td>iss</td><td>https://auth.riotgames.com</td></tr>
+  <tr><td>state</td><td>5686698d50b498d7cce3407df0</td></tr>
+  <tr><td>error</td><td>interaction_required</td></tr>
+  <tr><td>error_description</td><td>login_required</td></tr>
+</tbody></table>
+
+  <!-- if we have enough information, also emit error to the parent window for visibility -->
+  <script>window.parent.postMessage('XSSO::interaction_required login_required', '*')</script></body></html>

@@ -1,0 +1,182 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; /* 패딩 포함 크기 계산 */
+}
+.header{
+    width: 1200px;
+    position: fixed;
+    height: 80px;
+    background: rgb(10,20,40);
+    box-sizing: border-box;
+    z-index: 999;
+}
+.square{
+   width: 1200px;
+    padding: 20px;
+    background: rgb(10,20,40);
+    margin: 0px;
+}
+header>ul>li {
+  height: 80px;
+  width: 180px;
+  list-style: none;
+  display: flex;
+  align-items: center;    /* 세로 가운데 */
+  justify-content: center; /* 가로 가운데 */  
+  background: rgb(10,20,40);
+}
+.wrap{
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+nav>ul>li a{
+    color:white;
+    width: 250px;
+    display: block;
+    background: rgb(10,20,40);
+    padding: 10px 80px;
+    text-decoration: none;
+
+}
+header ul {
+     display: flex;
+     justify-content: space-between; /* 양 끝에 배치 + 균등 간격 */
+  align-items: center;           /* 세로 가운데 정렬 */
+  list-style: none;
+  padding: 0px;
+
+ 
+}
+.body{
+    padding-top: 1px;
+    
+    width: 1200px;
+    height: 6000px;
+}
+#logo{
+    width: 40px;  
+    height: 50px;  
+    object-fit: cover; 
+}
+
+.blank{
+    width: 1200px;
+    height: 135px;
+    background: rgb(10,20,40);
+}
+.footer{
+    margin-top: 95px;
+    width: 1200px;
+    background: rgb(10,20,40);
+    height: 400px;
+    box-sizing: border-box;
+}
+#footer_team{
+    width: 1200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.footer_blank{
+    width: 1200px;
+    background: rgb(10,20,40);
+    height: 150px;
+}
+.area1{
+    position: relative;
+    margin: 5px;
+    height: 790px;
+    float: left;
+    border: 1px solid black;
+    width: 280px;
+    left: px;
+}
+
+.main1{
+    width: 1200px;
+  background-size: cover;
+    height: 802px;
+    box-sizing: border-box; 
+     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Garen_0.jpg") no-repeat;  
+     background-size: cover;
+    }
+
+.main2{
+    width: 1200px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Graves_0.jpg") no-repeat;
+    height: 802px;
+    box-sizing: border-box;
+    background-size: cover;  
+}
+.main3{
+    width: 1200px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gragas_0.jpg") no-repeat;
+    height: 802px;
+    box-sizing: border-box;
+    background-size: cover;  
+}
+.main4{
+    width: 1200px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Galio_0.jpg") no-repeat;
+    height: 802px;
+    box-sizing: border-box;
+    background-size: cover;  
+}
+.main5{
+    width: 1200px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gwen_0.jpg") no-repeat;
+    height: 802px;
+    box-sizing: border-box;
+    background-size: cover;  
+}
+.main6{
+    width: 1200px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Veigar_0.jpg") no-repeat;
+    height: 802px;
+    box-sizing: border-box;
+    background-size: cover;  
+}
+.bg{
+    background: rgb(10,20,40);
+}
+.mainBox{
+    left: 50px;
+    top: 220px;
+    position: relative;
+    height: 350px;
+    width: 545px;
+    background-color:transparent;
+    box-sizing: border-box;
+}
+.mainHeroFrom{
+    height: 40px;
+  background: transparent;
+  color: gold;
+  font-size: 35px;
+  
+}
+.mainHeroName{
+    background-color:transparent;
+    height: 100px;
+    color: white;
+    font-size: 70px;
+
+}
+.mainHeroExplanation{
+   background-color:transparent;
+    height: 200px;
+     color: white;
+
+}
+.mainHeroRole{
+   background-color:transparent;
+    height: 60px;
+     color: white;
+     font-size: 30px;
+
+}
