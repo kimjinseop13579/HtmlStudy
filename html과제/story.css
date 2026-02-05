@@ -1,60 +1,192 @@
-body{margin: 0; padding: 0;}
-.base{
-    width: 1920px;
-    height: 1800px;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(10, 20, 40);
 }
-.header{
-    padding: 15px 0px;
-    width: 1920px;
-    position: fixed;
-    height: 80px;
-    background: rgb(17, 17, 17);
-    box-sizing: border-box;
-    z-index: 999;
+.base {
+  margin: auto;
+  width: 1200px;
+  height: 1800px;
+  background-color: rgb(10, 20, 40);
 }
-.menuBase{
-    width: 600px;
-    height: 50px;
-    margin: 0 auto;
+.header {
+  padding: 15px 0px;
+  width: 1200px;
+  position: fixed;
+  height: 80px;
+  background: rgb(17, 17, 17);
+  box-sizing: border-box;
+  z-index: 999;
 }
-.menu{
-    margin-left: 60px;
-    color: white;
-    font-size: 30px;
-    font-weight: 500;
-    float: left;
-    text-decoration: none;
+.menuBase {
+  width: 600px;
+  height: 50px;
+  margin: 0 auto;
 }
-.main1{
-    height: 580px;
-    width: 1920px;
-    border: 2px solid black;
-    position: relative;
+.menu {
+  margin-left: 60px;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+  float: left;
+  text-decoration: none;
 }
-.main2{
-    height: 500px;
-    width: 1920px;
-    border: 2px solid black;
-    position: relative;
-}
-.photo1{
-    height: 500px;
-    width: 1000px;
-    border: 1px solid black;
-    right: 0px;
-    bottom: 0px;
-    position: absolute;
-    background-color: beige;
-}
-.photo2{
-    height: 500px;
-    width: 1000px;
-    border: 1px solid black;
-    left: 0px;
-    position: absolute;
-    background-color: rgb(236, 236, 113);
+.main1 {
+  height: 680px;
+  width: 1200px;
+  position: relative;
+  margin-bottom: 300px;
 }
 
+.main2 {
+  height: 500px;
+  width: 1200px;
+  position: relative;
+  margin-bottom: 300px;
+}
+.photo1 {
+  height: 500px;
+  width: 600px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  background: url("./데마시아1.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.photo2 {
+  height: 500px;
+  width: 600px;
+  left: 0px;
+  position: absolute;
+  background: url(./녹서스3.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.photo3 {
+  height: 500px;
+  width: 600px;
+  right: 0px;
+  position: absolute;
+  background: url(./아이오니아1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.titleBox1 {
+  box-sizing: border-box;
+  height: 120px;
+  width: 600px;
+  position: absolute;
+  top: 180px;
 
-
-   
+}
+.titleBox1-1 {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 0px 30px;
+  margin: auto;
+  color: gold;
+  font-size: 25px;
+  text-align: center;
+}
+.titleBox1-2 {
+  color: gold;
+  box-sizing: border-box;
+  width: 400px;
+  padding: 0px 80px;
+  margin: auto;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+}
+.textBox1 {
+  box-sizing: border-box;
+  height: 380px;
+  width: 600px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  padding: 30px;
+  font-size: 13px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.titleBox2 {
+  box-sizing: border-box;
+  height: 120px;
+  width: 600px;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  text-align: center;
+}
+.titleBox2-1 {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 0px 30px;
+  margin: auto;
+  color: #810202;
+  font-size: 25px;
+  text-align: center;
+}
+.titleBox2-2 {
+  color: #810202;
+  box-sizing: border-box;
+  width: 400px;
+  padding: 0px 80px;
+  margin: auto;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+}
+.textBox2 {
+  box-sizing: border-box;
+  height: 380px;
+  width: 600px;
+  right: 0px;
+  bottom: 0px;
+  position: absolute;
+  padding: 30px;
+  font-size: 13px;
+  color: rgb(221, 58, 58);
+  text-align: center;
+}
+.titleBox3 {
+  box-sizing: border-box;
+  height: 120px;
+  width: 600px;
+  position: absolute;
+  top: 0px;
+  text-align: center;
+}
+.titleBox3-1 {
+  box-sizing: border-box;
+  width: 200px;
+  padding: 0px 30px;
+  margin: auto;
+  color: #00ac99;
+  font-size: 25px;
+  text-align: center;
+}
+.titleBox3-2 {
+  color: #00ac99;
+  box-sizing: border-box;
+  width: 400px;
+  padding: 0px 40px;
+  margin: auto;
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+}
+.textBox3 {
+  box-sizing: border-box;
+  height: 380px;
+  width: 600px;
+  left: 0px;
+  bottom: 0px;
+  position: absolute;
+  padding: 30px;
+  font-size: 13px;
+  color: #CB7894;
+  text-align: center;
+}
