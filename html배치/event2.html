@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .inputField {
+        display: flex;
+        gap: 15px;
+      }
+      #result1 {
+        border: 1px solid black;
+      }
+    </style>
+    <script>
+      function 클릭커() {
+        let name = document.getElementById("userName");
+        alert(name.value);
+        name.value = "까마귀";
+
+        const obj = document.querySelector("#userName");
+        console.dir(obj);
+      }
+      function 년도구하기() {
+        //현재 문서(document)에서 아이디가age인 (ById) 태그(Element)를
+        // 가져와라 (get)
+        // -> document.getElementById("age")
+        let ageTag = document.getElementById("age");
+        let age = ageTag.value;
+        alert(2026 - age);
+      }
+      function getAddress() {
+        let input = document.getElementById("address");
+        let div = document.getElementById("result1");
+
+        div.innerText = input.value;
+        // innerHTML , innerText
+        // innerHTML = "<input>";
+        // innerText = "<input>";
+        // div.innerText = "<input>"
+      }
+      function getName() {
+        let inputName = document.getElementById("name");
+        let nameBox = document.getElementById("nameCall");
+        nameBox.innerText = inputName.value;
+      }
+    </script>
+  </head>
+  <body>
+    <div class="inputField">
+      <input type="text" name="userName" id="userName" />
+      <button onclick="클릭커()">확인</button>
+    </div>
+
+    <div>
+      <input type="number" name="age" id="age" />
+      <button onclick="년도구하기()">계산</button>
+      <!--문제 : 나이를 입력하여 태어난 년도를 alert을 출력하세요-->
+    </div>
+
+    <!-- 문제 : 주소를 입력하여 div#result1 에 출력하세요
+        div 태그안에는 value가 없어요. 대신 innerText 에 넣으면 되요  -->
+    <div class="inputField">
+      <input type="text" name="address" id="address" />
+      <button onclick="getAddress()">완료</button>
+    </div>
+
+    <div id="result1"></div>
+
+    <div>
+      <input type="text" name="name" id="name" />
+      <button onclick="getName()"> 이름</button>
+    </div>
+
+    <div id="nameCall"></div>
+  </body>
+</html>

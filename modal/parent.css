@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrap{
+    width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+}
+.buttonWrap{
+    width: 50px;
+}
+.textWrap{
+    flex: 1;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.nameWrap{
+    width: 100%;
+    display: flex;
+}
+.nameWrap div{
+    width: 50px;
+}
+.nameWrap input{
+    flex: 1;
+}
+
+.e-mailWrap{
+    width: 100%;
+    display: flex;
+}
+.e-mailWrap div{
+    width: 50px;
+}
+.e-mailWrap input{
+    flex: 1;
+}
+
+
