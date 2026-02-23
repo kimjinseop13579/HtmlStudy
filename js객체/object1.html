@@ -15,8 +15,8 @@
         { num : 1, price : 15000 },
         { num : 3, price : 5300},
         { num : 5, price : 3300},
-        { num : 8, price : 20000},
-        { num : 10, price : 9200},
+        { num : 6, price : 20000},
+        { num : 10, price : 20100},
         { num : 15, price : 6850}
     ];
     console.log( number[0].price ); // 15000
@@ -28,6 +28,22 @@
     // }
 
     //map() 과 join() 을 사용하여 배열의 전체객체 출력
+
+    document.body.innerHTML = 
+    number.map( n=>`<div>${n.num} ${n.price}</div>`).join("");
+
+    // find() 는 찾기 위한 함수이다.
+    // 조건에 맞는 값 하나를 찾는 함수이다.
+    // filter()는 여러개 찾기 위한 함수이다.
+
+    let num6 = number.find( n => n.num === 6 );
+    console.log( num6 );
+
+    // price의 값이 20100인 객체를 찾아 출력하시오.
+
+    let num21 = number.find( n21 => n21.price === 20100);
+    console.log( num21 );
+
 
     // let item = {itemName : "닌텐도2", price:600000, color:"black",
     //     releaseYear:2025
